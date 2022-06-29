@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2? family= Oswald:wght@700 & family= Yellowtail & display=swap');
-
-body {
-    background-color: radial-gradient(circle, #666)
+h1 a, h2 a {
+    color: #C25100;
+    font-family: 'Lobster';
 }
-
 
 .page-header {
     background-color: #C25100;
@@ -23,7 +21,6 @@ body {
 
 h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
-    color: #ffffff;
 }
 
 .date {
