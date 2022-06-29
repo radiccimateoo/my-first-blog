@@ -4,7 +4,7 @@ h1 a, h2 a {
 }
 
 .page-header {
-    background-color: #C25100;
+    background-color: #666666;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -13,6 +13,7 @@ h1 a, h2 a {
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
+    text-align: center;
 }
 
 .content {
@@ -33,6 +34,12 @@ h1, h2, h3, h4 {
 
 .post-form textarea, .post-form input {
     width: 100%;
+    margin: 15px;
+    transition: .4s;
+}
+
+.post-form textarea:hover, .post-form input:hover {
+    box-shadow: 3px 3px 10px #666;
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
@@ -44,6 +51,14 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 70px;
+    transition: .4s;
+}
+
+.post:hover {
+    background-color: #666;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 .post h2 a, .post h2 a:visited {
